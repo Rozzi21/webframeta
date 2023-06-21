@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Form from '../components/Form'
+import Navbar from '../components/Navbar'
 
 const TambahPinjamPages = () => {
   return (
     <div>
-        <Navbar/>
+      <Navbar/>
         <Form/>
     </div>
   )

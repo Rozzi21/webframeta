@@ -71,6 +71,7 @@ const Form = () => {
         setJumlahPinjam("");
         setTanggalPinjam(new Date().toISOString().split("T")[0]);
         setTanggalKembali(new Date().toISOString().split("T")[0]);
+        alert("data berhasil ditambahkan");
       })
       .catch((error) => {
         // Handle error

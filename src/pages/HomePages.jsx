@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Logo from '../images/1.jpg';
+import Navbar from '../components/Navbar';
 
 const HomePages = () => {
   const backgroundImageStyle = {
@@ -11,7 +11,7 @@ const HomePages = () => {
 
   return (
     <div className="bg-cover bg-center h-screen" style={backgroundImageStyle}>
-      
+      <Navbar/>
     </div>
   );
 };
